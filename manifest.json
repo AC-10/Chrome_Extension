@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Michael_Scott_The Office",
+    "version": "1.0.0",
+    "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+        "js":["Content.js"]
+        }
+    ]
+}
